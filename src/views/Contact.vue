@@ -1,11 +1,11 @@
 <script>
 import feather from 'feather-icons';
-import ContactForm from '@/components/contact/ContactForm.vue';
+// import ContactForm from '@/components/contact/ContactForm.vue';
 import ContactDetails from '@/components/contact/ContactDetails.vue';
 
 export default {
 	components: {
-		ContactForm,
+		// ContactForm,
 		ContactDetails,
 	},
 	data: () => {
@@ -13,17 +13,17 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Your Address, Your City, Your Country',
+					name: 'Nabeul, Tunisia',
 					icon: 'map-pin',
 				},
 				{
 					id: 2,
-					name: 'email@domain.com',
+					name: 'anis_saied@hotmail.com',
 					icon: 'mail',
 				},
 				{
 					id: 3,
-					name: '555 8888 888',
+					name: '+216 99 32 12 99',
 					icon: 'phone',
 				},
 			],
@@ -43,8 +43,8 @@ export default {
 	<div
 		class="container mx-auto flex flex-col-reverse md:flex-row py-5 md:py-10 md:mt-10"
 	>
-		<!-- Contact form -->
-		<ContactForm />
+		<!-- Contact form 
+		<ContactForm />-->
 
 		<!-- Contact details -->
 		<ContactDetails :contacts="contacts" />
