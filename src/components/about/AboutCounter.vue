@@ -26,10 +26,9 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="12"
+					:endAmount="4"
 					:duration="1"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 					aria-label="About Status Counter"
 				/>
@@ -47,9 +46,7 @@ export default {
 					:startAmount="0"
 					:endAmount="20"
 					:duration="1"
-					suffix="k+"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
@@ -58,7 +55,7 @@ export default {
 				>
 			</div>
 
-			<!-- Positive feedback counter -->
+			<!-- Positive feedback counter 
 			<div class="mb-20 sm:mb-0">
 				<counter
 					ref="counter"
@@ -67,7 +64,6 @@ export default {
 					:duration="1"
 					suffix="%"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
@@ -76,13 +72,13 @@ export default {
 					{{ feedbackTitle }}
 				</span>
 			</div>
-
+-->
 			<!-- Projects completed counter -->
 			<div class="mb-20 sm:mb-0">
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="77"
+					:endAmount="7"
 					:duration="1"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
