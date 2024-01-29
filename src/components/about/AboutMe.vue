@@ -11,12 +11,17 @@ export default {
 				{
 					id: 2,
 					bio:
-						'FreeLancer',
+						'FreeLancer.',
 				},
 				{
 					id: 3,
 					bio:
-						'Formateur de Python au sein d\'IPEIN.',
+						'Formateur Python.',
+				},
+				{
+					id: 4,
+					bio:
+						'Développeur : Java, Python, Angular, Vue JS, Web.',
 				},
 			],
 		};
