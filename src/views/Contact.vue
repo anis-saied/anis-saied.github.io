@@ -21,11 +21,6 @@ export default {
 					name: 'anis_saied@hotmail.com',
 					icon: 'mail',
 				},
-				{
-					id: 3,
-					name: '+216 99 32 12 99',
-					icon: 'phone',
-				},
 			],
 		};
 	},
